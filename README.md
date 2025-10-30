@@ -16,6 +16,29 @@ This project classifies chest X-ray images into two categories:
 - F1 Score: **0.97**
 - Training samples: 980 (after augmentation)
 
+## 📁 Project Structure
+
+```
+covid19-xray-classification/
+│
+├── COVID_19_Classification_CNN.ipynb    # Main notebook
+├── README.md                             # Project documentation
+├── requirements.txt                      # Python dependencies
+├── LICENSE                               # License file
+│
+├── models/
+│   ├── covid19_cnn.h5                   # Trained model (H5 format)
+│   └── covid19_cnn.keras                # Trained model (Keras format)
+│
+├── results/
+│   ├── confusion_matrix.png             # Confusion matrix visualization
+│   ├── training_history.png             # Training curves
+│   └── classification_report.txt        # Detailed metrics
+│
+└── docs/
+    └── model_architecture.png           # Architecture diagram
+```
+
 ## 📊 Dataset
 
 **Source**: [Kaggle - Chest X-Ray COVID-19 & Pneumonia](https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia)
@@ -97,29 +120,6 @@ prediction = model.predict(img_array)
 print("COVID-19" if prediction[0] > 0.5 else "Normal")
 ```
 
-## 📁 Project Structure
-
-```
-covid19-xray-classification/
-│
-├── COVID_19_Classification_CNN.ipynb    # Main notebook
-├── README.md                             # Project documentation
-├── requirements.txt                      # Python dependencies
-├── LICENSE                               # License file
-│
-├── models/
-│   ├── covid19_cnn.h5                   # Trained model (H5 format)
-│   └── covid19_cnn.keras                # Trained model (Keras format)
-│
-├── results/
-│   ├── confusion_matrix.png             # Confusion matrix visualization
-│   ├── training_history.png             # Training curves
-│   └── classification_report.txt        # Detailed metrics
-│
-└── docs/
-    └── model_architecture.png           # Architecture diagram
-```
-
 ## 🎯 Project Requirements
 
 This project fulfills the following assignment requirements:
@@ -154,7 +154,7 @@ This project fulfills the following assignment requirements:
 ## 👤 Author
 
 **[Hamza Ghitri]**
-- GitHub: [@yourusername](https://github.com/7amzaGH)
+- GitHub: [@7amzaGH](https://github.com/7amzaGH)
 
 ## 📄 License
 
