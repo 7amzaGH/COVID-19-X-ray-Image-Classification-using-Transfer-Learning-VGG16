@@ -44,7 +44,7 @@ covid19-xray-classification/
 
 **Source**: [Kaggle - Chest X-Ray COVID-19 & Pneumonia](https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia)
 
-- Original: 121 images per class
+- The used Dataset: 121 images per class (provided by the teacher)
 - After augmentation: 700 images per class
 - Split: 70% train / 10% validation / 20% test
 
