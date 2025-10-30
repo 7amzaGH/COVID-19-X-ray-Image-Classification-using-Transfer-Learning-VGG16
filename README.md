@@ -101,12 +101,23 @@ print("COVID-19" if prediction[0] > 0.5 else "Normal")
 
 ```
 covid19-xray-classification/
-├── COVID_19_Classification_CNN.ipynb  # Main notebook
-├── README.md
-├── requirements.txt
-├── models/                            # Saved models
-├── results/                           # Visualizations
-└── docs/                              # Documentation
+│
+├── COVID_19_Classification_CNN.ipynb    # Main notebook
+├── README.md                             # Project documentation
+├── requirements.txt                      # Python dependencies
+├── LICENSE                               # License file
+│
+├── models/
+│   ├── covid19_cnn.h5                   # Trained model (H5 format)
+│   └── covid19_cnn.keras                # Trained model (Keras format)
+│
+├── results/
+│   ├── confusion_matrix.png             # Confusion matrix visualization
+│   ├── training_history.png             # Training curves
+│   └── classification_report.txt        # Detailed metrics
+│
+└── docs/
+    └── model_architecture.png           # Architecture diagram
 ```
 
 ## 🎯 Project Requirements
@@ -142,8 +153,8 @@ This project fulfills the following assignment requirements:
 
 ## 👤 Author
 
-**[Your Name]**
-- GitHub: [@yourusername](https://github.com/yourusername)
+**[Hamza Ghitri]**
+- GitHub: [@yourusername](https://github.com/7amzaGH)
 
 ## 📄 License
 
