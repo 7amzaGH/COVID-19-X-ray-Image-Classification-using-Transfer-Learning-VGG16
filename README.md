@@ -2,8 +2,9 @@
 
 Deep learning project for classifying chest X-ray images to detect COVID-19 using VGG16 transfer learning.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## 📋 Overview
 
